@@ -12,22 +12,22 @@ public class Modelo {
 
     private double acumulador = 0;
 
-    double sumar(double num) {
+    public double sumar(double num) {
         acumulador += num;
         return acumulador;
     }
 
-    double restar(double num) {
+    public double restar(double num) {
         acumulador -= num;
         return acumulador;
     }
 
-    double multiplicar(double num) {
+    public double multiplicar(double num) {
         acumulador *= num;
         return acumulador;
     }
 
-    double dividir(double num) {
+    public double dividir(double num) {
         acumulador = acumulador / num;
         return acumulador;
     }
